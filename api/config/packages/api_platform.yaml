@@ -5,10 +5,13 @@ api_platform:
     mercure: ~
     formats:
         jsonld: ['application/ld+json']
+        jsonhal:  ['application/hal+json']
+        csv: ['text/csv']
     docs_formats:
         jsonld: ['application/ld+json']
         jsonopenapi: ['application/vnd.openapi+json']
         html: ['text/html']
+        csv: ['text/csv']
     # Good defaults for REST APIs
     defaults:
         stateless: true

@@ -119,6 +119,15 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/api/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/api/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/assert" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/callback" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/foundry" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

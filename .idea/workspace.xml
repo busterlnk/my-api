@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c369c2e-62c3-4da2-adf4-d6260144087b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/DragonTreasure.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/DragonTreasure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/api/package-lock.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/public/build/app.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/public/build/entrypoints.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/components/Field.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/create.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/delete.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/fetch.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/index.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/list.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/hooks/retrieve.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/interfaces/Book.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/interfaces/Collection.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/routes/book.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/src/utils/dataAccess.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/src/DataFixtures/AppFixtures.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -146,6 +140,15 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/api/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/api/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/assert" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/callback" />
+      <path value="$PROJECT_DIR$/api/vendor/zenstruck/foundry" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -192,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701694262395</updated>
       <workItem from="1701694264054" duration="10206000" />
-      <workItem from="1701762740050" duration="8744000" />
+      <workItem from="1701762740050" duration="24039000" />
     </task>
     <servers />
   </component>
