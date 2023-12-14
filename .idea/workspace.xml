@@ -5,16 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c369c2e-62c3-4da2-adf4-d6260144087b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/assets/react/controllers/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/assets/react/controllers/ReactAdmin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/templates/login/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.php-cs-fixer.dist.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/.php-cs-fixer.dist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/debug.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/mercure.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/mercure.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/nelmio_cors.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/nelmio_cors.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/routing.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/zenstruck_foundry.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/zenstruck_foundry.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/frankenphp/Caddyfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/frankenphp/Caddyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/frankenphp/conf.d/app.dev.ini" beforeDir="false" afterPath="$PROJECT_DIR$/api/frankenphp/conf.d/app.dev.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/frankenphp/conf.d/app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/api/frankenphp/conf.d/app.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/frankenphp/conf.d/app.prod.ini" beforeDir="false" afterPath="$PROJECT_DIR$/api/frankenphp/conf.d/app.prod.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/frankenphp/worker.Caddyfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/frankenphp/worker.Caddyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/Version20210930074739.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20210930074739.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231205075524.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231205075524.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231205084646.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231205084646.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231207145512.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231207145512.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/api/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/Entity/DragonTreasure.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/DragonTreasure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/Greeting.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/Greeting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Factory/DragonTreasureFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Factory/DragonTreasureFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Factory/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Factory/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Repository/DragonTreasureRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Repository/DragonTreasureRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Repository/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/api/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/Api/GreetingsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/Api/GreetingsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/translations/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +95,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/api/assets/app.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/assets/controllers/hello_controller.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/assets/react/controllers/Hello.jsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/api/src/DataFixtures/AppFixtures.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -149,12 +216,18 @@
       <path value="$PROJECT_DIR$/api/vendor/zenstruck/assert" />
       <path value="$PROJECT_DIR$/api/vendor/zenstruck/callback" />
       <path value="$PROJECT_DIR$/api/vendor/zenstruck/foundry" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/ux-react" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/stimulus-bundle" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2Z4vehmHroZMQVGSoIIUKaldZ1B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -165,7 +238,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/franco/Proyectos/my-api",
+    "last_opened_file_path": "/home/franco/Documents/Proyecto API/code-api-platform-security/start",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,12 +252,23 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/src/Controller" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/templates" />
+      <recent name="$PROJECT_DIR$/api/src/Controller" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/api/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.232" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,6 +280,7 @@
       <updated>1701694262395</updated>
       <workItem from="1701694264054" duration="10206000" />
       <workItem from="1701762740050" duration="24039000" />
+      <workItem from="1702565665510" duration="4711000" />
     </task>
     <servers />
   </component>
