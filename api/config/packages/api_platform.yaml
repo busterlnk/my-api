@@ -13,6 +13,15 @@ api_platform:
         html: ['text/html']
         csv: ['text/csv']
     # Good defaults for REST APIs
+    
+    # por como esta configurado esto parece ser que solo se pueden ejecutar estos
+    # comandos para eliminar la documentacion de la pagina en caso de que sea en produccion
+    
+#    enable_docs: false
+#    enable_entrypoint: false
+#    enable_swagger: false
+#    enable_swagger_ui: false
+    
     defaults:
         stateless: true
         cache_headers:
@@ -22,3 +31,4 @@ api_platform:
             rfc_7807_compliant_errors: true
     event_listeners_backward_compatibility_layer: false
     keep_legacy_inflector: false
+    

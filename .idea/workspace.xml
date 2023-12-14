@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c369c2e-62c3-4da2-adf4-d6260144087b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Entity/MyPasswordAuthenticatedUserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backup/ChaoperatorRepositoreBU.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backup/ChatoperatorBU.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20210930074739.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20210930074739.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231205075524.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231205075524.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231205084646.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231205084646.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231207145512.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231207145512.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231214151142.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231214151142.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/Version20231214152214.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/Version20231214152214.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/Chatoperator.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/Chatoperator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Repository/ChatoperatorRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Repository/ChatoperatorRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +216,7 @@
       <workItem from="1701694264054" duration="10206000" />
       <workItem from="1701762740050" duration="24039000" />
       <workItem from="1702565665510" duration="7095000" />
-      <workItem from="1702585153059" duration="777000" />
+      <workItem from="1702585153059" duration="8956000" />
     </task>
     <servers />
   </component>

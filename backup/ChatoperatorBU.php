@@ -11,8 +11,6 @@ use ApiPlatform\Serializer\Filter\PropertyFilter;
 use App\Repository\ChatoperatorRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
-use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
-use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -25,8 +23,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 )]
 #[ApiFilter(PropertyFilter::class)]
 #[UniqueEntity(fields: ['vcemail'], message: 'There is already an account with this email')]
-#[UniqueEntity(fields: ['vclogin'], message: 'There is already an account with this username')]
-class Chatoperator implements UserInterface, PasswordAuthenticatedUserInterface
+#[UniqueEntity(fields: ['vclogin'], message: 'It looks like another dragon took your username. ROAR!')]
+class Chatoperator
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -49,9 +47,6 @@ class Chatoperator implements UserInterface, PasswordAuthenticatedUserInterface
     #[Assert\Email]
     private ?string $vcemail = null;
 
-    #[ORM\Column]
-    private array $roles = [];
-
     public function getOperatorid(): ?int
     {
         return $this->operatorid;
@@ -64,9 +59,6 @@ class Chatoperator implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-    /**
-     * @see UserInterface
-     */
     public function getVclogin(): ?string
     {
         return $this->vclogin;
@@ -79,32 +71,7 @@ class Chatoperator implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-    /**
-     * A visual identifier that represents this user.
-     *
-     * @see UserInterface
-     */
-    public function getUserIdentifier(): string
-    {
-        return (string) $this->vclogin;
-    }
-
-    /**
-     * @see UserInterface
-     */
-    public function getRoles(): array
-    {
-        $roles = $this->roles;
-        // guarantee every user at least has ROLE_USER
-        $roles[] = 'ROLE_USER';
-
-        return array_unique($roles);
-    }
-
-    /**
-     * @see PasswordAuthenticatedUserInterface
-     */
-    public function getPassword(): ?string
+    public function getVcpassword(): ?string
     {
         return $this->vcpassword;
     }
@@ -126,14 +93,5 @@ class Chatoperator implements UserInterface, PasswordAuthenticatedUserInterface
         $this->vcemail = $vcemail;
 
         return $this;
-    }
-
-    /**
-     * @see UserInterface
-     */
-    public function eraseCredentials()
-    {
-        // If you store any temporary, sensitive data on the user, clear it here
-        // $this->plainPassword = null;
     }
 }
