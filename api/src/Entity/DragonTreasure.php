@@ -46,20 +46,20 @@ use function Symfony\Component\String\u;
     ],
     paginationItemsPerPage: 10,
 )]
-#[ApiResource(
-    uriTemplate: '/users/{user_id}/treasures.{_format}',
-    shortName: 'Treasure',
-    operations: [new GetCollection()],
-    uriVariables: [
-        'user_id' => new Link(
-            fromProperty: 'dragonTreasures',
-            fromClass: User::class,
-        ),
-    ],
-    normalizationContext: [
-        'groups' => ['treasure:read'],
-    ],
-)]
+//#[ApiResource(
+//    uriTemplate: '/users/{user_id}/treasures.{_format}',
+//    shortName: 'Treasure',
+//    operations: [new GetCollection()],
+//    uriVariables: [
+//        'user_id' => new Link(
+//            fromProperty: 'dragonTreasures',
+//            fromClass: User::class,
+//        ),
+//    ],
+//    normalizationContext: [
+//        'groups' => ['treasure:read'],
+//    ],
+//)]
 #[ApiFilter(PropertyFilter::class)]
 #[ApiFilter(SearchFilter::class, properties: [
     'owner.username' => 'partial',
@@ -106,12 +106,12 @@ class DragonTreasure
     #[ApiFilter(BooleanFilter::class)]
     private bool $isPublished = false;
 
-    #[ORM\ManyToOne(inversedBy: 'dragonTreasures')]
-    #[ORM\JoinColumn(nullable: false)]
-    #[Groups(['treasure:read', 'treasure:write'])]
-    #[Assert\Valid]
-    #[ApiFilter(SearchFilter::class, strategy: 'exact')]
-    private ?User $owner = null;
+//    #[ORM\ManyToOne(inversedBy: 'dragonTreasures')]
+//    #[ORM\JoinColumn(nullable: false)]
+//    #[Groups(['treasure:read', 'treasure:write'])]
+//    #[Assert\Valid]
+//    #[ApiFilter(SearchFilter::class, strategy: 'exact')]
+//    private ?User $owner = null;
 
     public function __construct(string $name = null)
     {
@@ -212,16 +212,16 @@ class DragonTreasure
 
         return $this;
     }
-
-    public function getOwner(): ?User
-    {
-        return $this->owner;
-    }
-
-    public function setOwner(?User $owner): self
-    {
-        $this->owner = $owner;
-
-        return $this;
-    }
+//
+//    public function getOwner(): ?User
+//    {
+//        return $this->owner;
+//    }
+//
+//    public function setOwner(?User $owner): self
+//    {
+//        $this->owner = $owner;
+//
+//        return $this;
+//    }
 }
