@@ -11,6 +11,6 @@ class AdminController extends AbstractController
     #[Route('/admin')]
     public function dashboard(): Response
     {
-        return $this->render('admin/dashboard.html.twig');
+        return $this->render('login/login.html.twig');
     }
 }

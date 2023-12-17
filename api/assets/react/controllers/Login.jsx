@@ -1,6 +1,13 @@
-import { HydraAdmin } from "@api-platform/admin";
+// Ejemplo de componente 'Login' en React
 import React from 'react';
 
-export default (props) => (
-    <div>hola</div>
-);
+const Login = () => {
+    return (
+        // Contenido del componente Login
+        <div>
+            <p>hola</p>
+        </div>
+    );
+};
+
+export default Login;
