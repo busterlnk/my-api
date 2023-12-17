@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c369c2e-62c3-4da2-adf4-d6260144087b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app-react/src/api/requests/tokenAuth.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app-react/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/Version20231217150833.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/Version20231217163635.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/Version20231217173511.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Entity/Chatgroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Entity/IncidentReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Repository/ChatgroupRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Repository/IncidentReportRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/api_platform.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/src/Components/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/src/Components/Login.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app-react/src/Components/Register.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +27,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-app-react" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/api/assets/app.js" root0="FORCE_HIGHLIGHTING" />
@@ -235,7 +223,7 @@
       <workItem from="1702585153059" duration="9257000" />
       <workItem from="1702623243662" duration="1140000" />
       <workItem from="1702624866716" duration="31837000" />
-      <workItem from="1702809300798" duration="6932000" />
+      <workItem from="1702809300798" duration="15406000" />
     </task>
     <servers />
   </component>

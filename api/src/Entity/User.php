@@ -13,6 +13,8 @@ use ApiPlatform\Metadata\Put;
 use ApiPlatform\Serializer\Filter\PropertyFilter;
 use App\Repository\UserRepository;
 use App\State\UserPasswordHasher;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
@@ -67,6 +69,15 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[Groups(['user:write'])]
     #[Assert\NotBlank]
     private ?string $plainPassword = null;
+
+    #[ORM\OneToMany(mappedBy: 'idChatoperator', targetEntity: IncidentReport::class)]
+    #[Groups(['user:read', 'user:write'])]
+    private Collection $idIncidentReport;
+
+    public function __construct()
+    {
+        $this->idIncidentReport = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -160,5 +171,35 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     public function eraseCredentials(): void
     {
         $this->plainPassword = null;
+    }
+
+    /**
+     * @return Collection<int, IncidentReport>
+     */
+    public function getIdIncidentReport(): Collection
+    {
+        return $this->idIncidentReport;
+    }
+
+    public function addIdIncidentReport(IncidentReport $idIncidentReport): static
+    {
+        if (!$this->idIncidentReport->contains($idIncidentReport)) {
+            $this->idIncidentReport->add($idIncidentReport);
+            $idIncidentReport->setIdChatoperator($this);
+        }
+
+        return $this;
+    }
+
+    public function removeIdIncidentReport(IncidentReport $idIncidentReport): static
+    {
+        if ($this->idIncidentReport->removeElement($idIncidentReport)) {
+            // set the owning side to null (unless already changed)
+            if ($idIncidentReport->getIdChatoperator() === $this) {
+                $idIncidentReport->setIdChatoperator(null);
+            }
+        }
+
+        return $this;
     }
 }
