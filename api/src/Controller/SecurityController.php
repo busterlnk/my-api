@@ -28,8 +28,8 @@ class SecurityController extends AbstractController
 //        ]);
         // TODO preguntar porque con x-location o location no me esta enviando el parametro que le estoy definiendo pero porque con link si
         return new Response(null, 204, [
-            'X-Location' => $iriConverter->getIriFromResource($user),
-            'Location' => $iriConverter->getIriFromResource($user),
+//            'X-Location' => $iriConverter->getIriFromResource($user),
+//            'Location' => $iriConverter->getIriFromResource($user),
             'Link' => $iriConverter->getIriFromResource($user),
         ]);
     }

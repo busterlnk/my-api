@@ -23,7 +23,7 @@ api_platform:
 #    enable_swagger_ui: false
     
     defaults:
-        stateless: false
+        stateless: true
         cache_headers:
             vary: ['Content-Type', 'Authorization', 'Origin']
         extra_properties:

@@ -131,6 +131,9 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/ux-react" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/api/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/api/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
